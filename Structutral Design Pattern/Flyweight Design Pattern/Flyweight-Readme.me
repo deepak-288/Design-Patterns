@@ -1,0 +1,40 @@
+# Flyweight Design Pattern Example
+
+## Overview
+
+This project demonstrates the Flyweight Design Pattern, a structural design pattern used to minimize memory usage by sharing as much data as possible among similar objects.
+
+## Files
+
+1. **Tree.java**: Interface for the Tree flyweight.
+2. **OakTree.java**: Concrete Flyweight class for Oak Tree.
+3. **PineTree.java**: Concrete Flyweight class for Pine Tree.
+4. **TreeFactory.java**: Factory to manage the flyweights.
+5. **FlyweightPatternDemo.java**: Contains the main method to run the example.
+
+## How to Run
+
+1. Compile all Java files in the project.
+2. Run the `FlyweightPatternDemo` class to see the Flyweight Design Pattern in action.
+
+## Explanation
+
+The Flyweight Design Pattern helps reduce memory consumption by sharing instances of objects instead of creating new ones for each occurrence. This example includes:
+
+- **Tree Interface**: Defines the display method for trees.
+- **OakTree and PineTree**: Concrete implementations of the Tree interface.
+- **TreeFactory**: Manages the creation and sharing of Tree objects.
+- **FlyweightPatternDemo**: Demonstrates how Tree objects are shared.
+
+## Error Handling
+
+- The `TreeFactory` throws an `IllegalArgumentException` if an unsupported tree type is requested.
+
+## Notes
+
+- Ensure that all classes are properly compiled before running the example.
+- Check the console output to see when new Tree objects are created and when existing ones are reused.
+
+---
+
+Is there anything else you would like to add or modify in the example or the README?
